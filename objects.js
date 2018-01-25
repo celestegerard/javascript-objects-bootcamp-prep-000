@@ -1,7 +1,7 @@
 var playlist = { beyonce: "Crazy in Love" };
 
-function updatePlaylist(obj, artist, song) {
-  obj.artist = song;
+function updatePlaylist(obj, artistName, song) {
+  obj.artistName = song;
   return obj;
 }
 
