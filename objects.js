@@ -1,7 +1,7 @@
 var playlist = { beyonce: "Crazy in Love" };
 
 function updatePlaylist(obj, artist, song) {
-  return obj.artist = song;
+  obj.artist = song;
 }
 
 function removeFromPlaylist(playlist, beyonce) {
